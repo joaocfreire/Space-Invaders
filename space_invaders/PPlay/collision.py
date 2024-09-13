@@ -34,11 +34,11 @@ class Collision():
         """
         game_object1_min = point.Point(args[0].x, args[0].y)
         game_object1_max = point.Point(args[0].x + args[0].width,
-                                 args[0].y + args[0].height)
+                                       args[0].y + args[0].height)
 
         game_object2_min = point.Point(args[1].x, args[1].y)
         game_object2_max = point.Point(args[1].x + args[1].width,
-                                 args[1].y + args[1].height)
+                                       args[1].y + args[1].height)
 
         return (Collision.collided_rect(game_object1_min, game_object1_max,
                                         game_object2_min, game_object2_max))

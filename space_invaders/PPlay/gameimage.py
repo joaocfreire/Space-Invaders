@@ -1,5 +1,4 @@
 # Pygame and system modules
-import sys
 import pygame
 from pygame.locals import *
 from . import window
